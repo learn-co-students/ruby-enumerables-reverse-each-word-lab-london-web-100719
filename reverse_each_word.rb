@@ -14,9 +14,6 @@ def reverse_each_word(sentence)
 
   list_of_reversed_withcollect = list_of_words.collect {|word| word.reverse}
   
-  puts '...'
-  puts list_of_reversed_withcollect
-  
   output=list_of_reversed_withcollect.join(" ")
 
   output
